@@ -1,13 +1,23 @@
 <!doctype html>
 <html lang="en" ng-app="MainController">
-    <head>
-        <title>Blackjack Gone Doge</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
-        <script src="lib/angular-ui-router.js"></script>
-        <script src="controllers.js"></script>
-    </head>
-    <body ng-controller="index">
-        <button ng-click="changeRoute(>Register</button>
-        <button>Sign in</button>
-    </body>
+
+<head>
+    <title>Blackjack Gone Doge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="controllers.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <!-- <link rel="stylesheet/less" type="text/css" href="less/main.less"> -->
+    <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
+</head>
+
+<body ng-controller="index">
+    <div>
+        <h1>BLACKJACK GONE DOGE</h1>
+        <img src="img/DogePoker.jpg" /></img>
+    </div>
+    <button class="btn" ng-click="changeRoute()">Register</button>
+    <button>Sign in</button>
+</body>
+
 </html>
