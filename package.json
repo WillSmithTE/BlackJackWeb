@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.13"
+  }
+}
