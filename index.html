@@ -1,23 +1,26 @@
 <!doctype html>
-<html lang="en" ng-app="MainController">
+<html lang="en">
 
 <head>
     <title>Blackjack Gone Doge</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
-    <script src="lib/angular-ui-router.js"></script>
+    <!-- <script src="lib/angular-ui-router.js"></script> -->
     <script src="controllers.js"></script>
     <link rel="stylesheet" href="css.css">
     <!-- <link rel="stylesheet/less" type="text/css" href="less/main.less"> -->
-    <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
+    <!-- <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script> -->
 </head>
 
-<body ng-controller="index">
+<body ng-app="mainModule">
     <div>
         <h1>BLACKJACK GONE DOGE</h1>
         <img src="img/DogePoker.jpg" /></img>
     </div>
     <button class="btn" ng-click="changeRoute()">Register</button>
     <button>Sign in</button>
+    <div ng-controller="RegisterController">
+        <form sf-schema="registerSchema" sf-form="registerForm" sf-model="model"></form>
+    </div>
 </body>
 
 </html>

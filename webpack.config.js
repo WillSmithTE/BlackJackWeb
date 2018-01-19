@@ -1,0 +1,3 @@
+entry: {
+    'app': './controllers.ts'
+  }

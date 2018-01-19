@@ -1,5 +1,4 @@
-var schemaForm = require('angular-schema-form-bootstrap');
-var bootstrapDecorator = require('angular-schema-form/dist/bootstrap-decorator');
+import * as angular from 'angular';
 
 angular.module('mainModule', ['schemaForm'])
     .controller('RegisterController', function ($scope) {

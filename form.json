@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "title": "Register",
+    "properties": {
+        "username": {
+            "title": "Username",
+            "type": "string"
+        },
+        "name": {
+            "title": "Name",
+            "type": "string"
+        },
+        "email": {
+            "title": "Email",
+            "type": "string",
+            "pattern": "^\\S+@\\S+.com+$"
+        },
+        "country": {
+            "title": "Country",
+            "type": ""
+        }
+        
+    }
+}
